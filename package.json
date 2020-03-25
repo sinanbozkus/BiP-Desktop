@@ -1,0 +1,34 @@
+{
+  "name": "bip-desktop",
+  "version": "1.0.0",
+  "description": "Unofficial BiP Messenger Desktop Client for Windows, macOS and Linux",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinanbozkus/BiP-Desktop.git"
+  },
+  "keywords": [
+    "bip",
+    "bip-messenger",
+    "turkcell-bip"
+  ],
+  "author": "Sinan BOZKUS, Burak BASAR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinanbozkus/BiP-Desktop/issues"
+  },
+  "homepage": "https://github.com/sinanbozkus/BiP-Desktop#readme",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1",
+    "electron-packager": "^14.2.1",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.2-hotfix62"
+  }
+}
